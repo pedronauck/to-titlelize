@@ -1,0 +1,32 @@
+{
+  "name": "toTitlelize",
+  "version": "0.0.1",
+  "description": "NodeJS module to format string in titlelize",
+  "main": "toTitlelize.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:pedronauck/to-titlelize.git"
+  },
+  "keywords": [
+    "node",
+    "titlelize",
+    "npm",
+    "string"
+  ],
+  "author": "Pedro Nauck (pedronauck@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pedronauck/to-titlelize/issues"
+  },
+  "homepage": "https://github.com/pedronauck/to-titlelize",
+  "devDependencies": {
+    "should": "^3.3.2",
+    "mocha": "^1.20.0"
+  }
+}

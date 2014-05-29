@@ -33,7 +33,7 @@ toTitlelize('hello-world-motherfucker', {
 
 ## Example with Mongoose
 
-This module is very helpfull to using with a mongoose in NodeJS to format a path of your module.
+This module is very helpfull to using with a mongoose in NodeJS to format a path of your models.
 
 ```js
 // models/product.js

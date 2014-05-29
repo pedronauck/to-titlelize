@@ -1,4 +1,4 @@
-# toTitlelize()
+toTitlelize()
 ============
 
 [![Travis](http://img.shields.io/travis/pedronauck/to-titlelize/master.svg)](https://travis-ci.org/pedronauck/to-titlelize)

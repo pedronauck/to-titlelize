@@ -30,3 +30,34 @@ toTitlelize('hello-world-motherfucker', {
 ```
 
 **NOTICE**: `replaceChar` is default property, don't try to pass other property that the function won't work, ok?
+
+## Example with Mongoose
+
+This module is very helpfull to using with a mongoose in NodeJS to format a path of your module.
+
+```js
+// models/product.js
+var toTitlelize = require('to-titlelize'),
+    mongoose = require('mongoose'),
+    Schema = mongoose.Schema;
+
+var ProductSchema = new Schema({
+  name: { type: String, set: toTitlelize }
+});
+
+module.exports = mongoose.model('Product', ProductSchema);
+```
+
+Creating new product:
+
+```js
+// any controller or whatever
+var Product = require('./models/product'),
+    newProduct = new Product({ name: 'My first product' });
+
+newProduct.save(function(err, productCreated) {
+  console.log(productCreated.name); // My First Product
+});
+```
+
+That's it :smile_cat:

@@ -1,5 +1,5 @@
 {
-  "name": "toTitlelize",
+  "name": "to-titlelize",
   "version": "0.0.1",
   "description": "NodeJS module to format string in titlelize",
   "main": "toTitlelize.js",
